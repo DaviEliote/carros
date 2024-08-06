@@ -31,7 +31,7 @@ urlpatterns = [
     path('logout/', logout_view, name='logout'),
     path('cars/',CarListView.as_view(),name='car_views'),
     path('new_car/', NewCarListView.as_view(), name='new_car_view'),
-    path('car/<int:pk>/', CarDetailView.as_view(), name='detail'),
+    path('car/<int:pk>/', CarDetailView.as_view(), name='detail'),  
     path('car/<int:pk>/update/', CarUpdateView.as_view(),name='update'),
     path('car/<int:pk>/delete/', CarDeleteView.as_view(),name='delete')
 
