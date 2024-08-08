@@ -3,3 +3,5 @@ db.sqlite3
 db_antigo.sqlite3
 __pycache__/
 *.pyc
+__pycache__/
+*.pyc
